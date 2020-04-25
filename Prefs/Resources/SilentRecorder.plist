@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Screen Recording Indicator</string>
+			<key>footerText</key>
+			<string>The hide recorder icon in CC will hide the recording button in CC after the recording begins.The only option to stop the recording will be by clicking the above 'Stop Recording' button!</string>
+			<!-- <key>footerText</key>
+			<string>Enabling this tweak will disable the recording indicator.</string> -->
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>RecHideEnabled</string>
+			<key>label</key>
+			<string>Hide Recording Indicator</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>ccIconHidden</string>
+			<key>label</key>
+			<string>Hide Recorder Icon in CC</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Stop Recording!</string>
+			<key>action</key>
+			<string>stopRec</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Audio Recording Indicator</string>
+			<key>footerText</key>
+			<string>This option will hide the red audio recording indicator which is shown during audio Recording!</string>
+			<!-- <key>footerText</key>
+			<string>Enabling this tweak will disable the recording indicator.</string> -->
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>AudRecHideEnabled</string>
+			<key>label</key>
+			<string>Hide Audio Record Indicator</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Location Indicator</string>
+			<key>footerText</key>
+			<string>This option will hide the blue location indicator which is shown when an app is using the location!</string>
+			<!-- <key>footerText</key>
+			<string>Enabling this tweak will disable the recording indicator.</string> -->
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>LocHideEnabled</string>
+			<key>label</key>
+			<string>Hide Location Indicator</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Call Indicator</string>
+			<key>footerText</key>
+			<string>This option will hide the green call indicator which is shown when a call is in progress!</string>
+			<!-- <key>footerText</key>
+			<string>Enabling this tweak will disable the recording indicator.</string> -->
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>CallHideEnabled</string>
+			<key>label</key>
+			<string>Hide Call Indicator</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Hide Hotspot Indicator</string>
+			<key>footerText</key>
+			<string>This option will hide the blue hotspot indicator which is shown when a device connects to your hotspot!</string>
+			<!-- <key>footerText</key>
+			<string>Enabling this tweak will disable the recording indicator.</string> -->
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>HotspotHideEnabled</string>
+			<key>label</key>
+			<string>Hide HotSpot Indicator</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict>
+
+		<!-- <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>iPhoneX Only! Enabling this option will suppress the recording icon in the cover sheet.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.imkpatil.silentrecorder</string>
+			<key>key</key>
+			<string>RecIconDisable</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.imkpatil.silentrecorder.settingschanged</string>
+		</dict> -->
+
+
+		<!-- <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring!</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict> -->
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Icon from iconfinder.com
+© 2019 P2KDev (@p2kdev)</string>
+		</dict>
+
+	</array>
+
+	<key>title</key>
+	<string>SilentRecorder</string>
+</dict>
+</plist>

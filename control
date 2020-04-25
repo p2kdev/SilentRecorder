@@ -1,0 +1,10 @@
+Package: com.imkpatil.silentrecorder
+Name: SilentRecorder
+Depends: mobilesubstrate
+Version: 1.4.1
+Architecture: iphoneos-arm
+Description: Record the screen without the Red Indicator Window!
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Icon: file:///Library/Application Support/SilentRecorder/icon.png
